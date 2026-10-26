@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bill | Cloud & AI Portfolio</title>
+
+    <meta
+        name="description"
+        content="Explore Bill's portfolio, IT skills, cloud computing projects, software development, and AI learning journey."
+    >
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">BILL<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container hero-content">
+
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+
+                <h1>
+                    Hello, I'm <span>Bill.</span>
+                </h1>
+
+                <h2>
+                    Aspiring Cloud Engineer
+                    <span>& AI Engineer</span>
+                </h2>
+
+                <p class="hero-description">
+                    I am an Information Technology student learning to build
+                    reliable cloud solutions, useful software applications,
+                    and intelligent technology projects.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Projects
+                    </a>
+
+                    <a href="#contact" class="btn btn-outline">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="hero-status">
+                    <span class="status-dot"></span>
+                    Learning, Building and Growing
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+
+                <p class="section-label">GET TO KNOW ME</p>
+
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-card">
+                    <p>
+                        I am an Information Technology student passionate
+                        about cloud computing, software development, and
+                        artificial intelligence.
+                    </p>
+
+                    <p>
+                        My goal is to develop practical technical skills,
+                        build real-world projects, and grow into a technology
+                        professional who can solve problems and create
+                        useful digital solutions.
+                    </p>
+
+                    <p>
+                        This portfolio documents my learning journey and
+                        showcases the projects I build along the way.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+
+                <p class="section-label">WHAT I'M LEARNING</p>
+
+                <h2 class="section-title">My Technical Interests</h2>
+
+                <p class="section-description">
+                    These are the areas I am developing through learning
+                    and practical projects.
+                </p>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <div class="skill-icon">☁️</div>
+                        <h3>Cloud Computing</h3>
+                        <p>
+                            Learning AWS services, cloud storage,
+                            infrastructure, and deployment.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">&lt;/&gt;</div>
+                        <h3>Software Development</h3>
+                        <p>
+                            Learning how to create websites,
+                            applications, and useful software.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">AI</div>
+                        <h3>Artificial Intelligence</h3>
+                        <p>
+                            Exploring AI concepts and how intelligent
+                            applications can solve problems.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <div class="skill-icon">↗️</div>
+                        <h3>Networking & Linux</h3>
+                        <p>
+                            Developing knowledge of networking,
+                            Linux commands, and server fundamentals.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+
+                <p class="section-label">MY WORK</p>
+
+                <h2 class="section-title">Featured Projects</h2>
+
+                <p class="section-description">
+                    Explore my practical work and projects as I grow
+                    in cloud computing, software development, and AI.
+                </p>
+
+                <!-- Project Filter Buttons -->
+                <div class="project-filters">
+
+                    <button
+                        class="filter-btn active"
+                        data-category="All"
+                        type="button">
+                        All Projects
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="Cloud"
+                        type="button">
+                        Cloud
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="Software"
+                        type="button">
+                        Software
+                    </button>
+
+                    <button
+                        class="filter-btn"
+                        data-category="AI"
+                        type="button">
+                        AI
+                    </button>
+
+                </div>
+
+                <!-- JavaScript will place project cards here -->
+                <div
+                    id="project-container"
+                    class="project-grid">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+
+                <p class="section-label">LET'S CONNECT</p>
+
+                <h2 class="section-title">Contact Me</h2>
+
+                <div class="contact-card">
+
+                    <p>
+                        I am interested in learning, collaborating,
+                        building projects, and connecting with people
+                        in technology.
+                    </p>
+
+                    <!-- Replace this with your real email address -->
+                    <p class="contact-detail">
+                        Email:
+                        <span>Add your email address here</span>
+                    </p>
+
+                    <!-- Add your real LinkedIn profile when ready -->
+                    <p class="contact-detail">
+                        LinkedIn:
+                        <span>Add your LinkedIn profile here</span>
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>
+                &copy; <span id="current-year"></span> Bill.
+                Built with HTML, CSS and JavaScript.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
